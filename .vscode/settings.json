@@ -3,5 +3,6 @@
     "gitdoc.autoCommitDelay": 1000,
     "gitdoc.commitValidationLevel": "none",
     "gitdoc.enabled": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "gitdoc.pushMode": "forcePush"
 }
