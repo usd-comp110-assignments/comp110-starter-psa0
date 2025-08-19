@@ -1,6 +1,5 @@
 {
     "gitdoc.autoCommitDelay": 1000,
     "gitdoc.enabled": true,
-    "gitdoc.ai.enabled": true,
     "gitdoc.commitValidationLevel": "none"
 }
