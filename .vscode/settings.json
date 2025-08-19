@@ -1,8 +1,14 @@
 {
+<<<<<<< HEAD
     "gitdoc.ai.enabled": true,
     "gitdoc.autoCommitDelay": 1000,
     "gitdoc.commitValidationLevel": "none",
     "gitdoc.enabled": true,
     "files.autoSave": "afterDelay",
     "gitdoc.pushMode": "forcePush"
+=======
+    "gitdoc.autoCommitDelay": 1000,
+    "gitdoc.enabled": true,
+    "gitdoc.commitValidationLevel": "none"
+>>>>>>> 7577965af0b66ceaa70decd92fb1a6c0cc22f86a
 }
