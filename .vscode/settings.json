@@ -4,7 +4,7 @@
       {
         // Run whenever any file is saved
         "match": ".*",
-        "cmd": "git add ${file} && git commit -m \"Auto-commit: saved changes to ${fileBasename}\" && git push -"
+        "cmd": "git add ${file} && git commit -m \"Auto-commit: saved changes to ${fileBasename}\" && git push --force"
       }
     ]
   }
