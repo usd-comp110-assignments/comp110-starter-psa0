@@ -1,5 +1,6 @@
 import turtle
 
+
 # Set up the screen
 screen = turtle.Screen()
 screen.bgcolor("white")
