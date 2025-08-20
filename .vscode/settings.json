@@ -6,7 +6,7 @@
         "match": ".*",
         "cmd": "git add ${file} && git commit -m \"Auto-commit: saved changes to ${fileBasename}\""
       }
-    
+    ]
   }
 }
 
