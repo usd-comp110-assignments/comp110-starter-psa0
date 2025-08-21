@@ -81,11 +81,22 @@ def draw_basil(x, y):
 
 def draw_all():
     draw_plate()
+    # Draw red sauce under spaghetti
+    t.penup()
+    t.goto(0, 0)
+    t.pendown()
+    t.color("#c0392b")
+    t.begin_fill()
+    t.setheading(0)
+    for i in range(180):
+        t.forward(1.5 + i * 0.08)
+        t.left(2)
+    t.end_fill()
     draw_spaghetti()
-    # Meatballs
-    draw_meatball(-40, 20)
-    draw_meatball(30, 10)
-    draw_meatball(0, 50)
+    # Meatballs (spread out)
+    draw_meatball(-70, 40)
+    draw_meatball(60, 20)
+    draw_meatball(-10, 70)
     # Basil leaves
     draw_basil(-20, 60)
     draw_basil(20, 35)
