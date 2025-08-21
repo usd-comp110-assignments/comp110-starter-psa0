@@ -52,6 +52,7 @@ def draw_meatball(x, y):
     t.begin_fill()
     t.circle(22)
     t.end_fill()
+    
     # Meatball highlight
     t.penup()
     t.goto(x + 10, y + 15)
