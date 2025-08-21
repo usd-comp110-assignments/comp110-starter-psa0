@@ -30,6 +30,7 @@ def draw_spaghetti():
     t.goto(0, 10)
     t.pendown()
     t.setheading(0)
+    
     # Draw a large spiral for spaghetti
     for i in range(300):
         t.forward(1.2 + i * 0.04)
