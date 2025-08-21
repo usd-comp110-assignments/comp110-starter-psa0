@@ -34,6 +34,7 @@ def draw_spaghetti():
     for i in range(300):
         t.forward(1.2 + i * 0.04)
         t.left(5)
+    
     # Add a second spiral for fullness
     t.penup()
     t.goto(-10, 0)
