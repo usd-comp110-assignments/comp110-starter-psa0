@@ -93,6 +93,7 @@ def draw_all():
         t.left(2)
     t.end_fill()
     draw_spaghetti()
+    
     # Meatballs (spread out)
     draw_meatball(-70, 40)
     draw_meatball(60, 20)
