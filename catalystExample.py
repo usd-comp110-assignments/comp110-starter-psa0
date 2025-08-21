@@ -25,13 +25,23 @@ def draw_plate():
 
 def draw_spaghetti():
     t.color("#f5e6b2")  # pasta color
-    for i in range(18):
-        t.penup()
-        t.goto(-60 + (i % 6) * 24, -20 + (i // 6) * 20)
-        t.pendown()
-        t.setheading(60 + (i % 3) * 30)
-        t.pensize(3)
-        t.circle(40, 120)
+    t.pensize(3)
+    t.penup()
+    t.goto(0, 10)
+    t.pendown()
+    t.setheading(0)
+    # Draw a large spiral for spaghetti
+    for i in range(300):
+        t.forward(1.2 + i * 0.04)
+        t.left(5)
+    # Add a second spiral for fullness
+    t.penup()
+    t.goto(-10, 0)
+    t.pendown()
+    t.setheading(10)
+    for i in range(250):
+        t.forward(1.1 + i * 0.035)
+        t.left(5)
     t.pensize(1)
 
 def draw_meatball(x, y):
