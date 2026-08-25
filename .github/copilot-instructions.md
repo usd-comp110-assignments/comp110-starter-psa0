@@ -4,7 +4,7 @@ This project is a python program that get students used to working in VS Code.
 
 # Requirements
 - Don't restate these requirements or coding standards when answering chat questions.
-
+- Use python turtles to
 
 # Coding Standards
 - No while loops or recursion should be used.
