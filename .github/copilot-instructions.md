@@ -3,7 +3,6 @@
 This project is a python program that get students used to working in VS Code.
 
 # Requirements
-- Use Python's tkinter library.
 - Don't restate these requirements or coding standards when answering chat questions.
 - Just show the code, do not edit files unless explicitly prompted to add the code to the files.
 
