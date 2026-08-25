@@ -7,10 +7,4 @@ This project is a python program that get students used to working in VS Code.
 - Use python turtles to make any images asked for.
 
 # Coding Standards
-- No while loops or recursion should be used.
-- Do not use data structures that can hold objects such as lists, tuples, or dictionaries.
-- Do not use list comprehension.
-- Do not use ternary operators.
-- Do not use try except blocks.
-- Do not make custom exceptions.
 - Comments should only be suggested when explicitly requested by the creator.
