@@ -4,7 +4,6 @@ This project is a python program that get students used to working in VS Code.
 
 # Requirements
 - Don't restate these requirements or coding standards when answering chat questions.
-- Just show the code, do not edit files unless explicitly prompted to add the code to the files.
 
 # Coding Standards
 - No while loops or recursion should be used.
