@@ -1,6 +1,7 @@
 {
     "github.copilot.enable": {
         "*": false
-    }
+    },
+    "chat.restoreLastPanelSession": true
 }
 
